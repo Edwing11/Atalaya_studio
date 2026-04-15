@@ -12,7 +12,7 @@ export async function fetchTestimonios() {
 }
 
 export async function enviarAAtalayaServer(datos) {
-    const URL_LOCAL = 'http://localhost:3000/contacto';
+    const URL_LOCAL = 'https://atalaya-studio-4.onrender.com/contacto';
     
     try {
         const response = await fetch(URL_LOCAL, {
